@@ -6,14 +6,6 @@
 } 
 .navitem {
   display: inline-block;
-  width: 70px; 
-  height: 30px; 
-  text-align: center;
-  border: gray;
-  background-color: #E8562A;
-  color: #fff;
-  cursor: pointer;
-  font-weight: bold;
 }
 
 .button {
