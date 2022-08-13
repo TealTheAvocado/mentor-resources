@@ -6,6 +6,7 @@
 } 
 .navitem {
   display: inline-block;
+  position: center;
 }
 
 .button {
