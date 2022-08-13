@@ -9,7 +9,6 @@
  } 
 
 button {
-    background-color: teal; 
     margin-top: 2.5em;
     margin-bottom: 2.5em;
     color: white;
@@ -45,6 +44,10 @@ button {
   display: inline-block;
   font-size: 16px;
 }
+.home{ 
+  background-color: teal;
+}
+
 h1 {
     text-align: center;
 }
