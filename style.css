@@ -1,15 +1,15 @@
 .academic {
  padding: 10px;
  position: relative;
- background-color: #fff;
+ background-color: grey;
  margin: 10px;
 } 
-.navitem {
+button.navitem {
   display: inline-block;
   text-align: center;
 }
 
-.button {
+button {
   background-color: teal; 
   border: none;
   color: white;
@@ -21,7 +21,7 @@
 
 }
 
-.h1 {
+h1 {
     margin-left: auto;
     margin-right: auto;
 }
