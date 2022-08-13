@@ -34,6 +34,17 @@ button {
   font-size: 16px;
 }
 
+.bottom {
+  display: inline-block;
+  background-color: lightcoral; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
 h1 {
     text-align: center;
 }
