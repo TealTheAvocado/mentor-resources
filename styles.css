@@ -1,9 +1,12 @@
 .academic {
- padding: 10px;
  position: relative;
  background-color: grey;
- margin: 10px;
 } 
+
+.about{
+  position: relative;
+  background-color: grey;
+ } 
 
 button {
     background-color: teal; 
