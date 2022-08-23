@@ -1,11 +1,11 @@
 .academic {
  position: relative;
- background-color: lightgrey;
+ margin-top: 30px;
+ margin-bottom: 3em;
 } 
 
 .about{
   position: relative;
-  background-color: lightskyblue;
  } 
 
 button {
@@ -23,7 +23,7 @@ button {
 
 .navitem {
   display: inline-block;
-  background-color: teal; 
+  background-color: #3793CB; 
   border: none;
   color: white;
   padding: 15px 32px;
@@ -33,10 +33,17 @@ button {
   font-size: 16px;
 }
 
-.bottom {
+/* Change subject nav on hover */
+.navitem:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.about-us {
   display: inline-block;
   display: inline-block;
-  background-color: lightcoral; 
+  background-color: #98A09E; 
   border: none;
   color: white;
   padding: 15px 32px;
@@ -44,15 +51,17 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+}
+
+.about-us:hover {
+  background-color: #ddd;
+  color: black;
 }
 .home{ 
   background-color: teal;
 }
 
-h1 {
-    text-align: center;
-}
-
+/* Edit tables */
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
@@ -63,7 +72,46 @@ table {
   width: 100%;
 }
 
+/* Change body */
 body {
   font-family: 'Trebuchet MS', sans-serif;
-  background-color: lightpink;
+  background-color: #F4FAF8;
+  margin-top: 30px;
 }
+/* Edit headers */
+h1 {
+  font-size: 60px;
+    text-align: center;
+}
+
+h2{
+  font-size: 45px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #98A09E;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  opacity: 1;
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #010101;
+  color: #F4FAF8;
+}
+
+/* Add background color but fix at top */
+.topnav {
+  overflow: hidden;
+  position: fixed;
+  background-color: black;
+  top: 0;
+  width: 100%;
+  opacity: 1;
+}
+
