@@ -120,3 +120,8 @@ h2{
   list-style-type: none;
 }
 
+
+button:hover {
+  background-color: #ddd;
+  color: black;
+}

@@ -11,7 +11,7 @@ body {
 button {
     margin-top: 1.5em;
     margin-bottom: 2em;
-    color: #98A09E;
+    color: #435C5F;
     padding: 13px 32px;
     text-align: center;
     text-decoration: none;
@@ -21,6 +21,10 @@ button {
   
   }
   
+button:hover {
+    background-color: #ddd;
+    color: black;
+}
 textarea {
     resize:none;
 }
