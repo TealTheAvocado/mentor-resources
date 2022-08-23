@@ -1,0 +1,103 @@
+/* Change body */
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: #F4FAF8;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+  }
+
+button {
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+    color: white;
+    padding: 13px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+  
+  }
+  
+textarea {
+    resize:none;
+}
+  
+.contact-button {
+    display: inline-block;
+    background-color: #3793CB; 
+    border: none;
+    color: white;
+    padding: 10 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  
+.contact-button:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+.container {
+    width: 600px;
+    box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
+    padding: 2em;
+  
+}
+  
+.form-group {
+    margin-bottom: 1.5em;
+}
+  
+.form-label {
+    font-size: .75em;
+    display: block;
+    opacity: 0;
+    transition: all .3s;
+    transform: translateX(-50px);
+}
+
+.form-control {
+    box-shadow: none;
+    border-radius: 0;
+    border-color: #CCC;
+    border-style: none none solid none;
+    width: 100%;
+    font-size: 1.25em;
+    transition: all .6s;
+
+}
+
+
+.form-control::placeholder {
+    color: #AAA
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: black;
+    outline: none;
+}
+
+.form-control:focus-within {
+    transform: scale(1.05,1.05);
+}
+
+.form-control:invalid:focus {
+    border-color: red;
+}
+
+.form-control:valid {
+    border-color: green;
+}
+
+.focused > .form-label{
+    opacity: 1;
+    transform:translateX(0px);
+
+}
