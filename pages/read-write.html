@@ -7,7 +7,8 @@
 </head>
 <body>
     <h1>Reading/Writing Resources</h1>
-    <table>
+    <input type="text" id="myInput" onkeyup="tableSearch()" placeholder="Grade">
+    <table id="myTable">
         <tr>
           <th>Resource</th>
           <th>Available Grade Levels</th>
@@ -39,6 +40,30 @@
             <td>Technically these are lesson plans for teachers</td>
         </tr>
       </table>
+      <script>
+        function tableSearch(){
+          let input, filter, table, tr, td, i, txtValue;
+          // Initializing variables
+          input = document.getElementById("myInput");
+          filter = input.value.toUpperCase();
+          table = document.getElementById("myTable");
+          tr = table.getElementsByTagName("tr");
+
+          for(let i = 0; i < tr.length; i++){
+            td = td = tr[i].getElementsByTagName("td")[1];
+            if (td) {
+              txtValue = td.textContent || td.innerText;
+              if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                tr[i].style.display = "";
+              } 
+              else {
+                tr[i].style.display = "none";
+              }
+
+           }
+          }
+        }
+      </script>
       <button class="home" onclick="window.location.href='../index.html';">Home</button>
 </body>
 </html>
