@@ -125,3 +125,8 @@ button:hover {
   background-color: #ddd;
   color: black;
 }
+
+input[type="text"]
+{
+  font-family: 'Trebuchet MS', sans-serif;
+}
