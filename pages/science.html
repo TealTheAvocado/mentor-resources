@@ -87,6 +87,8 @@
           <td>lots of powerpoints about plants </td>
         </tr>
       </table>
+      <button onclick="topFunction()" id="topbtn" title="Go to top">Top</button>
+
       <script>
         function tableSearch0(){
           let input, filter, table, tr, td, i, txtValue;
@@ -153,6 +155,10 @@
 
            }
           }
+        }
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
         }
       </script>
 </body>

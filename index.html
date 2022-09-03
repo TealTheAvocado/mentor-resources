@@ -34,6 +34,12 @@
         <button class="about-us" onclick="window.location.href='https://studentsphere.org/';">StudentSphere</button>
         <button class="about-us" onclick="window.location.href='./author.html';">Author</button>
     </div>
-
+    <button onclick="topFunction()" id="topbtn" title="Go to top">Top</button>
+    <script>
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
 </body>
 </html>
