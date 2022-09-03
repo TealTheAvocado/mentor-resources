@@ -107,16 +107,9 @@ h2{
   text-decoration: none;
   opacity: 1;
   font-size: 30px;
-  border-right: 1px solid white;
-  border-left: 1px solid white;
 
 }
-.topnav:last-child {
-  border-right:none;
-}
-.topnav:first-child {
-  border-left: 1px solid white;
-}
+
 
 /* Change the color of links on hover */
 .topnav a:hover {
