@@ -34,7 +34,10 @@ button {
   text-align: center;
   text-decoration: none;
   font-size: 16px;
+
 }
+
+
 
 /* Change subject nav on hover */
 .navitem:hover {
@@ -79,7 +82,7 @@ table {
 body {
   font-family: 'Trebuchet MS', sans-serif;
   background-color: #F4FAF8;
-  margin-top: 30px;
+  margin-top: 0;
 }
 head {
   margin-top: 0px;
@@ -104,7 +107,15 @@ h2{
   text-decoration: none;
   opacity: 1;
   font-size: 30px;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
 
+}
+.topnav:last-child {
+  border-right:none;
+}
+.topnav:first-child {
+  border-left: 1px solid white;
 }
 
 /* Change the color of links on hover */
@@ -124,6 +135,7 @@ h2{
   opacity: 1;
   list-style-type: none;
   display: flex;
+  border-left: 5px;
 }
 
 
