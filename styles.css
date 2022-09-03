@@ -112,7 +112,6 @@ h2{
 /* Add background color but fix at top */
 .topnav {
   overflow: hidden;
-  position: fixed;
   background-color: black;
   top: 0;
   left: 0;
