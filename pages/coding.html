@@ -11,7 +11,9 @@
 </head>
 <body>
     <h1>Coding Resources</h1>
-    <input type="text" id="myInput" onkeyup="tableSearch()" placeholder="Search by grade">
+    <input type="text" id="myInput" onkeyup="tableSearch0()" placeholder="Search by title">
+    <input type="text" id="myInput" onkeyup="tableSearch1()" placeholder="Search by grade">
+    <input type="text" id="myInput" onkeyup="tableSearch2()" placeholder="Search by comments">
     <table id="myTable">
         <tr>
           <th>Resource</th>
@@ -45,7 +47,29 @@
         </tr>
       </table>
       <script>
-        function tableSearch(){
+        function tableSearch0(){
+          let input, filter, table, tr, td, i, txtValue;
+          // Initializing variables
+          input = document.getElementById("myInput");
+          filter = input.value.toUpperCase();
+          table = document.getElementById("myTable");
+          tr = table.getElementsByTagName("tr");
+
+          for(let i = 0; i < tr.length; i++){
+            td = td = tr[i].getElementsByTagName("td")[0];
+            if (td) {
+              txtValue = td.textContent || td.innerText;
+              if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                tr[i].style.display = "";
+              } 
+              else {
+                tr[i].style.display = "none";
+              }
+
+           }
+          }
+        }
+        function tableSearch1(){
           let input, filter, table, tr, td, i, txtValue;
           // Initializing variables
           input = document.getElementById("myInput");
@@ -55,6 +79,28 @@
 
           for(let i = 0; i < tr.length; i++){
             td = td = tr[i].getElementsByTagName("td")[1];
+            if (td) {
+              txtValue = td.textContent || td.innerText;
+              if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                tr[i].style.display = "";
+              } 
+              else {
+                tr[i].style.display = "none";
+              }
+
+           }
+          }
+        }
+        function tableSearch2(){
+          let input, filter, table, tr, td, i, txtValue;
+          // Initializing variables
+          input = document.getElementById("myInput");
+          filter = input.value.toUpperCase();
+          table = document.getElementById("myTable");
+          tr = table.getElementsByTagName("tr");
+
+          for(let i = 0; i < tr.length; i++){
+            td = td = tr[i].getElementsByTagName("td")[2];
             if (td) {
               txtValue = td.textContent || td.innerText;
               if (txtValue.toUpperCase().indexOf(filter) > -1) {
