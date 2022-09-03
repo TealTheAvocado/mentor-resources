@@ -33,7 +33,6 @@ button {
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
 }
 
@@ -82,6 +81,10 @@ body {
   background-color: #F4FAF8;
   margin-top: 30px;
 }
+head {
+  margin-top: 0px;
+  margin-left: 0px;
+}
 /* Edit headers */
 h1 {
   font-size: 60px;
@@ -115,9 +118,12 @@ h2{
   background-color: black;
   top: 0;
   left: 0;
+  right: 0;
+  margin:0px;
   width: 100%;
   opacity: 1;
   list-style-type: none;
+  display: flex;
 }
 
 
