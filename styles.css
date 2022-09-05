@@ -39,7 +39,6 @@ button {
 }
 
 
-
 /* Change subject nav on hover */
 .navitem:hover {
   background-color: #ddd;
@@ -80,10 +79,12 @@ table {
 }
 
 /* Change body */
-body {
+body{
   font-family: 'Trebuchet MS', sans-serif;
   background-color: #F4FAF8;
   margin-top: 0;
+  margin-left: 0em;
+  margin-right: 0em;
 }
 head {
   margin-top: 0px;
@@ -129,7 +130,7 @@ h2{
   opacity: 1;
   list-style-type: none;
   display: flex;
-  border-left: 5px;
+  border-left: 0px;
 }
 
 
@@ -141,4 +142,9 @@ button:hover {
 input[type="text"]
 {
   font-family: 'Trebuchet MS', sans-serif;
+}
+
+.content-container {
+  margin-left: 5em;
+  margin-right: 5em;
 }
