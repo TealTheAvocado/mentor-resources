@@ -10,11 +10,26 @@
     <title>Mentor Resources</title>
 </head>
 <body>
-    <ul class="topnav">
-        <li><a class="active" href="./index.html">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="./contact.html"">Contact Me</a></li>
-    </ul>
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="./contact.html">Contact Me</a>
+        <div class="dropdown">
+          <button class="dropbtn">Dropdown
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="./pages/coding.html">Coding</a>
+            <a href="./pages/language.html">Languages</a>
+            <a href="./pages/math.html">Math</a>
+            <a href="./pages/read-write.html">Reading/Writing</a>
+            <a href="./pages/science.html">Sciences</a>
+            <a href="./pages/art.html">Art & Misc</a>
+          </div>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+
     <div class="content-container">
     <div class="academic">
         <h1>Academic Mentorship Resources for K-12 Students</h1>

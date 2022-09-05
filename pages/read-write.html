@@ -8,13 +8,27 @@
     <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
     <link rel="manifest" href="../site.webmanifest">
     <title>Reading/Writing</title>
-    <div class="topnav">
-      <a class="active" href="../index.html">Home</a>
-      <a href="../index.html#about">About</a>
-      <a href="../contact.html"">Contact Me</a>
-    </div>
+
 </head>
 <body>
+  <div class="topnav" id="myTopnav">
+    <a href="../index.html#home" class="active">Home</a>
+    <a href="../index.html#about">About</a>
+    <a href="../contact.html">Contact Me</a>
+    <div class="dropdown">
+      <button class="dropbtn">Dropdown
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="coding.html">Coding</a>
+        <a href="language.html">Languages</a>
+        <a href="math.html">Math</a>
+        <a href="science.html">Sciences</a>
+        <a href="social.html">Social Studies</a>
+        <a href="art.html">Art & Misc</a>
+      </div>
+    </div>
+  </div>
   <div class="content-container">
     <h1>Reading/Writing Resources</h1>
     <input type="text" id="myInput" onkeyup="tableSearch0()" placeholder="Search by title">
