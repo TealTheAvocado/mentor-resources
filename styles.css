@@ -38,7 +38,6 @@ button {
 
 }
 
-
 /* Change subject nav on hover */
 .navitem:hover {
   background-color: #ddd;
@@ -63,6 +62,7 @@ button {
   background-color: #ddd;
   color: black;
 }
+
 .topbtn{ 
   background-color: teal;
 }
@@ -94,6 +94,7 @@ head {
 h1 {
   font-size: 60px;
     text-align: center;
+    margin-left: 0;
 }
 
 h2{
@@ -113,7 +114,7 @@ h2{
 }
 
 .topnav:first-child{
-  margin-left: 10px;
+  margin-left: 0px;
 }
 /* Change the color of links on hover */
 .topnav a:hover {
