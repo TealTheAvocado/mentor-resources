@@ -8,13 +8,27 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
     <link rel="manifest" href="../site.webmanifest">
     <title>Flora</title>
-    <ul class="topnav">
-        <li><a class="active" href="./index.html">Home</a></li>
-        <li><a href="./index.html#about">About</a></li>
-        <li><a href="./contact.html"">Contact Me</a></li>
-    </ul>
 </head>
 <body>
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="./contact.html">Contact Me</a>
+        <div class="dropdown">
+          <button class="dropbtn">Subjects
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="./pages/coding.html">Coding</a>
+            <a href="./pages/language.html">Languages</a>
+            <a href="./pages/math.html">Math</a>
+            <a href="./pages/read-write.html">Reading/Writing</a>
+            <a href="./pages/science.html">Sciences</a>
+            <a href="./pages/art.html">Art & Misc</a>
+          </div>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
     <div class="content-container">
     <img src="./img/me_storke.png" alt="a picture of Flora" height="350" width="'250">
     <p>Hi hi! My name is Flora Zhang. I graduated from UCSB with a degree in biology, and I am now pursuing my second bachelor's in computer science! I'm currently the Communications Director of StudentSphere.</p>
